@@ -6,7 +6,8 @@ categories:
 ---
 
 As I get this site up and running, I thought it would be a good idea to
-discuss some of the topics I plan to cover in the future. These mostly
+discuss some of the topics I plan to cover in the future, so I've listed
+post titles and corresponding plans below. These mostly
 relate to software I've developed and to software engineering and
 computer science experiences I've had, but I may branch out into other
 topics from time to time.
@@ -31,8 +32,8 @@ discuss in the post.
 ### Even My Keyboard is Open-Source: A Charybdis Build Log
 I currently use an ergonomic, open-source keyboard called the Charybdis. I built
 this keyboard myself, which was a rather harrowing experience. I plan to discuss
-the challenges I faced while constructing the keyboard and the key layout I
-designed for it.
+the challenges I faced while constructing the keyboard and the advantages of the
+key layout I designed for it.
 
 ### StageViewer: A Visualization Tool for Steve from Minecraft in Super Smash Brothers Ultimate
 An ongoing project that will be publicly available soon is a tool a friend
