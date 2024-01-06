@@ -2,7 +2,7 @@
 layout: post
 title:  "Future Post Topics"
 date:   2024-01-05 18:00:00 -0600
-categories: 
+categories: portfolio
 ---
 
 As I get this site up and running, I thought it would be a good idea to
