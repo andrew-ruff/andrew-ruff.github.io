@@ -11,11 +11,11 @@ Recently, to fulfill a request from a friend and improve my web development skil
 ## Capabilities
 Stage Viewer's primary purpose is to allow users to create and share game-accurate visualizations of block structures created while playing Steve. Its capabilities support this purpose. The most central piece of functionality is grid-aligned block placement. The application contains a JSON file which includes the information necessary to align the blocks placed by a user to a particular stage's grid. Essentially, each stage image's entry includes a map of which grid squares allow block placement and empirical measurements necessary to align this map to the stage image. This system allows users to easily place blocks aligned to the grid, and can be extended to additional stages relatively quickly, by taking a few measurements in a program such as GIMP.
 
-![Battlefield](battlefield-test.png)
+![The word "test" drawn in blocks over a simple rendering of the stage "Battlefield" from Super Smash Bros. Ultimate](/docs/assets/images/battlefield.png)
 
 I've added two stages so far, and users can switch between them as they like. There are different materials available on different stages, and infrastructure is in place to support swapping out materials accordingly. There is an erase tool and a clear button. The HTML canvas is the main representation of the creation presented to the user, but the ultimate source of truth is a JSON representation of the locations blocks have been placed. JSON representations of creations can be saved as files and loaded from files, enabling size-efficient and portable representation of creations.
 
-![Final Destination](final-destination.png)
+![The stage "Final Destination" in the Stage Viewer application](/docs/assets/images/final-destination.png)
 
 ## Future Plans
 Full Tauri support is my immediate next priority, since my final intention is for the app to run locally in order to alleviate web hosting demands. I also plan to enable easy image downloads and add the remaining popular competitive stages. In the longer-term, I plan to overhaul the canvas system to add an overlay representing the block placement grid, use SVGs for the stage background, dynamically scale the canvas to clean resolution multiples, and refine the app's overall appearance.
