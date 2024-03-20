@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing Stage Viewer: A Simple Visualization Tool Built with SvelteKit and Tailwind CSS"
-date:   2024-03-20 15:50:00 -0600
+date:   2024-03-20 15:50:00 -0500
 categories: portfolio
 ---
 
